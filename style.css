@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  background-image: url(https://i.pinimg.com/originals/a3/74/0e/a3740e0d7e4f2aadfec4cffd49210dfb.png);
+  background-size: cover;
+  color: #031d33;
+}
+header {
+  font-size: 30px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+}
+
+.container {
+  margin: auto;
+  padding-top: 30px;
+  display: flex;
+  width: 600px;
+  height: 400px;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+#input-english {
+  padding: 10px;
+  width: 60%;
+  height: 18vh;
+  margin-left: 100px;
+  border: 1px solid lightslategrey;
+  background-color: #103452;
+  color: lightgray;
+}
+
+#output {
+  width: 60%;
+  height: 18vh;
+  padding: 10px;
+  margin-left: 100px;
+  border: 1px solid lightslategrey;
+
+  background-color: #103452;
+  color: lightgray;
+}
+.output-div {
+  margin-left: 100px;
+}
+button {
+  padding: 10px 15px;
+  background-color: #deb531;
+  color: black;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px 60px;
+}
+
+.footer-p {
+  font-weight: bolder;
+  background-color: #103452;
+  color: lightgray;
+  padding: 5px;
+}
+
+/* changes color of placeholder*/
+::placeholder {
+  color: lightsteelblue;
+}
